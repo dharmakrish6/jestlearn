@@ -1,17 +1,12 @@
-it("Async test", async done => {
+describe('sample test suite', () => {
+  test("Async test", async done => {
     expect(1).toBe(1);
-  
-    done();
+
+done();
   });
 
-  it("Async test2", async done => {
-    expect(1).toBe(12);
-  
-    done();
-  });
-
-
-  it("Async test3", async done => {
+  test("Async test3", async done => {
     console.log('test 3')
     done();
   });
+})
