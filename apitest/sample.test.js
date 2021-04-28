@@ -9,3 +9,9 @@ it("Async test", async done => {
   
     done();
   });
+
+
+  it("Async test3", async done => {
+    console.log('test 3')
+    done();
+  });
